@@ -83,7 +83,7 @@ public class Play implements ICommand {
         }
 
         if(guildMusicManager.getTrackScheduler().getPlayer().getPlayingTrack() == null) {
-            event.reply("Failed to play song. Please try again.").queue();
+            event.reply("Failed to display song details.").queue();
             return;
         }
         AudioTrackInfo info = guildMusicManager.getTrackScheduler().getPlayer().getPlayingTrack().getInfo();
