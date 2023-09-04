@@ -1,6 +1,6 @@
 # Springboot Discord Music Bot
 
-A simple Discord bot built with Spring Boot that allows you to play music in voice channels.
+A simple Discord music bot built with Spring Boot.
 
 ## Getting Started
 
